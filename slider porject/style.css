@@ -1,0 +1,55 @@
+body {
+    background-color: #333;
+}
+
+.slider-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.slider {
+    margin: auto;
+    margin-top: 100px;
+    width: 500px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 3px #fff solid;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+.previous-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #d1d1d1;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border: 2px #fff solid;
+    cursor: pointer;
+}
+
+.previous-button:hover {
+    background-color: #595959;
+}
+
+.next-button:hover {
+    background-color: #595959;
+}
+
+.previous-button {
+    left: 10px;
+}
+
+.next-button {
+    right: 10px;
+}
